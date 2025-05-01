@@ -1,0 +1,19 @@
+# Core Requirements
+streamlit>=1.32.0
+pandas>=2.0.0
+plotly>=5.18.0
+llama-index>=0.10.0
+ollama>=0.1.0
+
+# Development & Extras
+python-dotenv>=1.0.0
+PyPDF2>=3.0.0  # For resume parsing (future feature)
+python-docx>=0.8.0  # For DOCX resume parsing (future feature)
+loguru>=0.7.0  # Enhanced logging
+tqdm>=4.0.0  # Progress bars
+
+# Optional (for potential future features)
+openai>=1.0.0  # Fallback to GPT if needed
+firebase-admin>=6.2.0  # For cloud storage
+websockets>=11.0.0  # Real-time collaboration
+python-multipart>=0.0.6  # File uploads
